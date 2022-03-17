@@ -1,0 +1,5 @@
+.cpcache
+*~
+.shadow-cljs
+built-resources/
+node_modules/
