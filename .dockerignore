@@ -1,0 +1,4 @@
+node_modules/
+built-target/
+.git/
+.shadow-cljs/
