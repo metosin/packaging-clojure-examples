@@ -1,3 +1,9 @@
+# Contents
+
+- [project.clj](project.clj) - the leiningen configuration
+- [prod.cljs.edn](prod.cljs.edn) - the figwheel-main cljs build configuration
+- [Dockerfile](Dockerfile)
+
 # Uberjar
 
 Building:
