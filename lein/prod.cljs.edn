@@ -1,0 +1,3 @@
+{:main my-project.frontend
+ :optimizations :simple
+ :output-to "target/resources/public/js/frontend.js"}
