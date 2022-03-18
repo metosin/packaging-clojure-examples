@@ -20,3 +20,5 @@
   (rdom/render
    [app]
    (.getElementById js/document "frontend")))
+
+(init)

@@ -4,5 +4,4 @@
   {:target :browser
    :output-dir "built-resources/public/js"
    :asset-path "js"
-   :modules {:frontend {:entries [my-project.frontend]
-                        :init-fn my-project.frontend/init}}}}}
+   :modules {:frontend {:entries [my-project.frontend]}}}}}
