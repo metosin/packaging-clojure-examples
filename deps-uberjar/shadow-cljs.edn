@@ -1,0 +1,7 @@
+{:deps true
+ :builds
+ {:frontend
+  {:target :browser
+   :output-dir "target/classes/public/js"
+   :asset-path "js"
+   :modules {:frontend {:entries [my-project.frontend]}}}}}
