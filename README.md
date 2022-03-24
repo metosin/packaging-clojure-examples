@@ -9,4 +9,5 @@ configurations (`project.clj`, `deps.edn`, `Dockerfile`, `shadow-cljs.edn`,
 Contents:
 
 - [deps-docker/](deps-docker/) – a deps.edn project packaged directly into a docker image, no uberjar
+- [deps-uberjar/](deps-uberjar/) - a deps.edn project that builds an uberjar, optionally packagint it inside a docker image
 - [lein/](lein/) – a Leiningen project that builds an uberjar, optionally packaging it inside a docker image
