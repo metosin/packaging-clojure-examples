@@ -2,6 +2,7 @@
 
 - [deps.edn](deps.edn) - backend & frontend dependencies
 - [shadow-cljs.edn](shadow-cljs.edn) – the shadow-cljs configuration. Uses paths & deps from `deps.edn`.
+- [package.json](package.json), [package-lock.json](package-lock.json) - JS deps (react)
 - [build.clj](build.clj) - the tools.build script
 - [Dockerfile](Dockerfile)
 
