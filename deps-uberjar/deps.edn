@@ -1,4 +1,4 @@
-{:paths ["src/clj" "src/cljs" "resources" "built-resources"]
+{:paths ["src/clj" "resources"]
  :deps {;; backend deps
         org.clojure/clojure {:mvn/version "1.10.3"}
         metosin/reitit {:mvn/version "0.5.16"}

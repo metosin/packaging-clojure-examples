@@ -11,6 +11,7 @@
 Building:
 
 ```
+npm install
 clj -T:shadow-cljs:build uberjar
 ```
 
