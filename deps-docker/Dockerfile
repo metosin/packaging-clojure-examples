@@ -9,7 +9,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_17.x | bash - && apt-get install
 # Separate layer for deps: better caching
 COPY package.json /app
 COPY package-lock.json /app
-RUN npm install
+RUN npm ci
 
 COPY . /app
 RUN clojure -M:shadow-cljs release frontend
