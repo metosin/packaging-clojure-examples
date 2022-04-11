@@ -34,7 +34,7 @@ docker build -t my-project:deps-uberjar .
 Running the container:
 
 ```
-docker run --network host --rm -d --name my-project my-project:deps-uberjar
+docker run -p 127.0.0.1:3333:3333 --rm -d --name my-project my-project:deps-uberjar
 ```
 
 Browse <http://localhost:3333>
