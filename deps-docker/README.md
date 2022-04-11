@@ -17,7 +17,7 @@ docker build -t my-project:backend-only -f Dockerfile.backend-only .
 Running, testing and killing:
 
 ```
-docker run --network host --rm -d --name my-project my-project:backend-only
+docker run -p 127.0.0.1:3333:3333 --rm -d --name my-project my-project:backend-only
 curl localhost:3333/api/ping
 docker kill my-project
 ```
@@ -33,7 +33,7 @@ docker build -t my-project:latest .
 Running, testing and killing:
 
 ```
-docker run --network host --rm -d --name my-project my-project:latest
+docker run -p 127.0.0.1:3333:3333 --rm -d --name my-project my-project:latest
 ```
 
 Browse <http://localhost:3333>

@@ -26,6 +26,6 @@ RUN clojure -P
 # Add sources
 COPY . /app
 # Add frontend build output from previous stage
-COPY --from=build /app/built-resources /app
+COPY --from=build /app/built-resources /app/built-resources
 
 CMD clojure -M -m my-project.main
