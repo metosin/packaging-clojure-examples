@@ -1,6 +1,6 @@
 # Packaging Clojure for Production
 
-Companion repo for this blog post (TODO link).
+Companion repo for this [blog post](https://metosin.fi/blog/packaging-clojure/)
 
 All the examples have the same resources/ and src/, only the tool
 configurations (`project.clj`, `deps.edn`, `Dockerfile`, `shadow-cljs.edn`,
